@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/react/growth/first_task/data/types"],(function(e,t,i){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.markClinkTooltipSeen=function(){return{type:i.Actions.MarkClinkTooltipSeen}},t.showClinkFilesTooltip=function(){return{type:i.Actions.ShowClinkFilesTooltip}},t.showClinkMembersTooltip=function(){return{type:i.Actions.ShowClinkMembersTooltip}},t.hideClinkTooltip=function(){return{type:i.Actions.HideClinkTooltip}}}));
+//# sourceMappingURL=actions.min.js-vflXjQPqs.map

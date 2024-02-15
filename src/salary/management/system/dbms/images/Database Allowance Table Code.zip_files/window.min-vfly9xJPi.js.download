@@ -1,0 +1,2 @@
+define(["require","exports"],(function(e,n){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.isFramed=function(){return window.parent!==window},n.sendBrowserAgnosticEvent=function(e,n){var t;return"function"==typeof Event?t=new Event(n):(t=document.createEvent("Event")).initEvent(n,!0,!0),e.dispatchEvent(t),t}}));
+//# sourceMappingURL=window.min.js-vflQbFy69.map

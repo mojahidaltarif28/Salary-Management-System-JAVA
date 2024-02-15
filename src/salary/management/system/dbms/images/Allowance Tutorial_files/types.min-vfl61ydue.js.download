@@ -1,0 +1,2 @@
+define(["require","exports"],(function(e,E){"use strict";Object.defineProperty(E,"__esModule",{value:!0}),E.isBehaviorOptions=function(e){return!!e&&(e.hasOwnProperty("slicePath")||e.hasOwnProperty("context"))},E.ACTION_LISTENERS_MIDDLEWARE="ACTION_LISTENERS_MIDDLEWARE",E.SAGA_MIDDLEWARE="SAGA_MIDDLEWARE",E.BEHAVIOR_CLASS_FIELD_TYPE="behavior-class",E.BEHAVIOR_FIELD_TYPE="behavior"}));
+//# sourceMappingURL=types.min.js-vflFPnyuQ.map

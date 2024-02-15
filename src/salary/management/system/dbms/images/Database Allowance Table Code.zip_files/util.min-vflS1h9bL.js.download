@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/lodash"],(function(e,t,i,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),n=i.__importStar(n),t.numCheckedActivities=function(e){return e.checked?e.activities.length:e.activities.filter((function(e){return e.checked})).length},t.escapeRegExp=function(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")},t.cloneCategory=function(e){return n.defaults({activities:e.activities.map(n.clone)},e)}}));
+//# sourceMappingURL=util.min.js-vflZRoyMC.map

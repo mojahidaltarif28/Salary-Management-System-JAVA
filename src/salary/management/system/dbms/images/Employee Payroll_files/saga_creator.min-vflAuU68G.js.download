@@ -1,0 +1,2 @@
+define(["require","exports"],(function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.SAGA_FIELD_TYPE="saga",t.createSaga=function(e){return e.__type__=t.SAGA_FIELD_TYPE,e}}));
+//# sourceMappingURL=saga_creator.min.js-vflfVjZzy.map

@@ -1,0 +1,2 @@
+define(["require","exports"],(function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.ACTION_FIELD_TYPE="action",t.isActionCreator=function(e){return"function"==typeof e&&e.hasOwnProperty("dispatch")}}));
+//# sourceMappingURL=types.min.js-vfl7uoQ-C.map

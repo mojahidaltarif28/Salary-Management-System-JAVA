@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/lodash"],(function(t,e,r,i){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),i=r.__importStar(i),e.initialStateDecorator=function(t){return function(e){var r=e.prototype.initialState;return e.prototype.initialState=function(){return r?i.merge({},t,r.apply(this)):t},e}}}));
+//# sourceMappingURL=initial_state.min.js-vflOGdywu.map

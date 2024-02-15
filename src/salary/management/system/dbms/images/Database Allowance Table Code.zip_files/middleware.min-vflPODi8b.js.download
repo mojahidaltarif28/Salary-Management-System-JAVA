@@ -1,0 +1,2 @@
+define(["require","exports"],(function(t,e){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.ActionListenerMiddleware=function(){var t={},e=function(e){var n=e.dispatch,r=e.getState;return function(e){return function(u){return u&&u.type&&t[u.type]&&t[u.type].forEach((function(t){return t(u,n,r)})),e(u)}}};return e.subscribe=function(e,n){return t[e]=(t[e]||[]).concat([n]),function(){t[e]&&(t[e]=t[e].filter((function(t){return t!==n})))}},e}}));
+//# sourceMappingURL=middleware.min.js-vflBulcDR.map

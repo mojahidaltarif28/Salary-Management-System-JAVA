@@ -1,0 +1,2 @@
+define(["require","exports","tslib","rondo/v1/metadata/entry"],(function(e,t,r,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.metaDecorator=function(e,t){return function(){for(var n=[],a=0;a<arguments.length;a++)n[a]=arguments[a];var u=r.__read(n,3),i=u[0],c=u[1],d=u[2],s=c?i.constructor:i;return o.setMetadata(s.prototype,c,e,t),void 0===c?i:d}}}));
+//# sourceMappingURL=decorator.min.js-vfl9FjcIF.map

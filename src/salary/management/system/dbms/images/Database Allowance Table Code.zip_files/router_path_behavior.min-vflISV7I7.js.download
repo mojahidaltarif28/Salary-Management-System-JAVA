@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/rondo/router/location_utils","rondo/v1/index"],(function(e,t,o,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=(function(){function e(){this.locationPath=r.createSelector((function(e){var t=e.routing,r=t.basePath,n=t.routerType;return o.locationToRelativePath(n,e.location,r)}))}return e.displayName="RouterPathBehavior",e})();t.RouterPathBehavior=n}));
+//# sourceMappingURL=router_path_behavior.min.js-vflItClYN.map

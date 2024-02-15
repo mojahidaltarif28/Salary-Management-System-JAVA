@@ -1,0 +1,2 @@
+define(["require","exports","rondo/v1/metadata","rondo/v1/metadata_redux/types"],(function(e,n,t,i){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.useSliceSingleMatch=function(e){return!e[1]},n.actionCamelCaseToUnderscore=function(e){return t.camelCaseToUnderscorePattern(e[2])},n.isSliceActionType=function(e){return e.indexOf(i.prefixNoSlice)<0},n.actionTypeFromSliceActionType=function(e){return n.isSliceActionType(e)?e:e.substring(i.prefixNoSlice.length)}}));
+//# sourceMappingURL=slice_action.min.js-vfl4nr0AO.map

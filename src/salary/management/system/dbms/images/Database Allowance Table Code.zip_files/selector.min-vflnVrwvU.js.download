@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/redux/selectors","modules/clean/redux/namespaces"],(function(e,t,r,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=(function(){function e(){}return e.prototype.getTeamDiscoveryStoreState=function(e){var t=r.getStateAtNamespace(e,o.TEAM_DISCOVERY_NAMESPACE_KEY);if(void 0===t)throw Error("State in Store is undefined!");return t},e})();t.Selector=n}));
+//# sourceMappingURL=selector.min.js-vflY-Hg0z.map

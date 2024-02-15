@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/ajax"],(function(e,r,s){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.WebRequestPromise=function(e){return new Promise((function(r,u){e.success=r,e.error=u,s.WebRequest(e)}))}}));
+//# sourceMappingURL=web_request_promise.min.js-vfltPNU9f.map

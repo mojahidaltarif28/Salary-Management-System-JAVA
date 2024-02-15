@@ -1,0 +1,2 @@
+define(["require","exports","tslib","rondo/v1/metadata_redux/action/decorators"],(function(e,t,n,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.flow=function(e,t){return o.action({meta:{flow:e},metaCreator:t})},t.flowAction=function(e){return function(t){return n.__assign(n.__assign({},t),{meta:e.meta})}}}));
+//# sourceMappingURL=flow.min.js-vflb2tfk-.map

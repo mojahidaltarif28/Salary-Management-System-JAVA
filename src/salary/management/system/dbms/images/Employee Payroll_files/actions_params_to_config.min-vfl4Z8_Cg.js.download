@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/lodash"],(function(e,i,t,n){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),n=t.__importStar(n),i.actionsParamsToConfig=function(e){return n.isArray(e)?{actions:e.map((function(e){return n.isString(e)?{actionType:e,useSlice:!1}:e}))}:n.isString(e)?{actions:[{actionType:e,useSlice:!1}]}:e}}));
+//# sourceMappingURL=actions_params_to_config.min.js-vflJM2azr.map

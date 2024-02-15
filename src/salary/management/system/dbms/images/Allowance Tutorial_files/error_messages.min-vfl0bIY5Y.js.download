@@ -1,0 +1,2 @@
+define(["require","exports","modules/core/i18n"],(function(e,r,t){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.ErrorMessages={generic_error:t.intl.formatMessage({id:"c8hBvx",defaultMessage:"Something went wrong. Please try again later."}),rate_limit:t.intl.formatMessage({id:"XrxDUO",defaultMessage:"Couldn’t generate report. Try again once your other reports finish."}),default:t.intl.formatMessage({id:"PDtG7K",defaultMessage:"Something went wrong. We’re working on it."})}}));
+//# sourceMappingURL=error_messages.min.js-vflpHc8oU.map

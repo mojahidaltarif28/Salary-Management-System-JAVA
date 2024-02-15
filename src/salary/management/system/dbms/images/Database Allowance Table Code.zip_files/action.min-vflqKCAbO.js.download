@@ -1,0 +1,2 @@
+define(["require","exports","rondo/v1/actions/action_creator"],(function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.createAction=function(e){var t=e||{};return o.RondoActionFactory.create(t)}}));
+//# sourceMappingURL=action.min.js-vflqsuWd8.map

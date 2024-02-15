@@ -1,0 +1,2 @@
+define(["require","exports","rondo-react/v1/async_widget","rondo-react/v1/variants","rondo-react/v1/widget"],(function(t,e,a,n,r){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.AsyncWidget=a.AsyncWidget,e.Variant=n.Variant,e.VariantFalse=n.VariantFalse,e.VariantTrue=n.VariantTrue,e.Variants=n.Variants,e.VariantsContext=n.VariantsContext,e.widgetComponent=r.widgetComponent,e.widget=r.widget}));
+//# sourceMappingURL=index.min.js-vflZx_t59.map

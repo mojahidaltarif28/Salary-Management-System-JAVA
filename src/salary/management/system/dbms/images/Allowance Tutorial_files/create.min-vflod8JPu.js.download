@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/lodash","redux-actions","rondo/v1/slice_actions/combine"],(function(e,t,i,n,o,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),n=i.__importStar(n),t.createActions=function(e,t){var i=e.SLICE,c=e.NO_SLICE,s=t&&t.length>0?n.set({},t,i):i,a=r.combineSliceActions([s,c]);return o.createActions(a)}}));
+//# sourceMappingURL=create.min.js-vflnwFmAJ.map

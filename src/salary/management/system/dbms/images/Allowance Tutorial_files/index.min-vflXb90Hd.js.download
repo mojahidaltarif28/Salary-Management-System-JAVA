@@ -1,0 +1,2 @@
+define(["require","exports","tslib","rondo/v1/middleware_registry/middleware"],(function(e,r,t,i){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),t.__exportStar(i,r)}));
+//# sourceMappingURL=index.min.js-vfl1XWcCQ.map

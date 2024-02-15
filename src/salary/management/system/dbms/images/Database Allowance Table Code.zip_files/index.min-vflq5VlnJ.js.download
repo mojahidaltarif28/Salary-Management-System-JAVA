@@ -1,0 +1,2 @@
+define(["require","exports","tslib","modules/clean/teams/admin/modals/modal_ajax/actions","modules/clean/teams/admin/modals/modal_ajax/reducer","modules/clean/teams/admin/modals/modal_ajax/types"],(function(e,a,t,o,d,s){"use strict";Object.defineProperty(a,"__esModule",{value:!0}),t.__exportStar(o,a),t.__exportStar(d,a),t.__exportStar(s,a)}));
+//# sourceMappingURL=index.min.js-vfl1K1AUA.map

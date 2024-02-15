@@ -1,0 +1,2 @@
+define(["require","exports"],(function(e,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),(function(e){e[e.Hash=0]="Hash",e[e.Browser=1]="Browser"})(r.RouterType||(r.RouterType={}))}));
+//# sourceMappingURL=types.min.js-vfleSyhou.map

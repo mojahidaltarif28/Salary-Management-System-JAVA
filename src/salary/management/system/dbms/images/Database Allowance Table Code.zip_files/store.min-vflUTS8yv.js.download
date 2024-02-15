@@ -1,0 +1,2 @@
+define(["require","exports","tslib","modules/clean/redux/store","modules/clean/redux/namespaces","modules/clean/react/growth/first_task/data/reducer","external/lodash"],(function(e,r,t,s,a,o,u){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),u=t.__importStar(u),r.getStoreForFirstTask=u.once((function(){var e;return s.getStoreAndRegisterReducers(((e={})[a.FIRST_TASK_NAMESPACE_KEY]=o.firstTaskReducer,e))}))}));
+//# sourceMappingURL=store.min.js-vfluVbOZ6.map

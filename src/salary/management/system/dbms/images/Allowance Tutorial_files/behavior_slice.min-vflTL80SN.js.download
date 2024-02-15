@@ -1,0 +1,2 @@
+define(["require","exports","tslib"],(function(e,t,i){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.withSlice=function(e){return function(t){return(function(t){function n(n){for(var r=[],s=1;s<arguments.length;s++)r[s-1]=arguments[s];return t.apply(this,i.__spread([n?i.__assign(i.__assign({},n),{slicePath:n.slicePath?n.slicePath+"/"+e:e}):{slicePath:e}],r))||this}return i.__extends(n,t),n})(t)}}}));
+//# sourceMappingURL=behavior_slice.min.js-vflHkimHR.map

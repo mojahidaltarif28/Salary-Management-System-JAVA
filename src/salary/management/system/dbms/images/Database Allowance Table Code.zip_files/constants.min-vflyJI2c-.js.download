@@ -1,0 +1,2 @@
+define(["require","exports"],(function(e,r){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),(function(e){e[e.SUBSCRIPTION_EXPIRED=100]="SUBSCRIPTION_EXPIRED",e[e.UNSUPPORTED_BROWSER=200]="UNSUPPORTED_BROWSER"})(r.TeamBillingErrorType||(r.TeamBillingErrorType={}))}));
+//# sourceMappingURL=constants.min.js-vfltMKp60.map

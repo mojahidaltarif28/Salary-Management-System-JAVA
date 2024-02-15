@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/lodash","rondo/v1/invariant"],(function(e,t,i,n,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),n=i.__importStar(n),t.contextSelector=function(e,t,i,r){if(void 0===i&&(i=void 0),void 0===r&&(r=!1),e){var s=e.selectors;if(n.isFunction(s[t]))return i?n.get(s[t](e.state),i):s[t](e.state);o.invariant(!1,"Context's selector "+t+" is not a function")}else o.invariant(r,"The context you're accessing is undefined. Consider fixing or setting allowNoContext")}}));
+//# sourceMappingURL=context.min.js-vflkNN7mN.map

@@ -1,0 +1,2 @@
+define(["require","exports","tslib","react","dig-components/buttons"],(function(e,t,n,o,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),o=n.__importStar(o),t.CancelButton=o.memo((function(e){var t=e.label,n=e.disabled,a=e.onClick;return o.createElement(r.Button,{className:"sc-comment-editor-controls-cancel",disabled:n,onClick:a,variant:"transparent"},t)}))}));
+//# sourceMappingURL=cancel_button.min.js-vflbVjVq6.map

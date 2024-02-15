@@ -1,0 +1,2 @@
+define(["require","exports","tslib","external/lodash"],(function(e,i,t,r){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),r=t.__importStar(r),i.isBehavior=function(e){return!r.isFunction(e)&&"behavior"===e.__type__},i.isBehaviorClass=function(e){return r.isFunction(e)&&"behavior-class"===e.__type__}}));
+//# sourceMappingURL=utils.min.js-vflcb7JD5.map

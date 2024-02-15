@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/redux/store","modules/clean/redux/namespaces","modules/clean/react/teams/team_discovery/data/reducer"],(function(e,r,t,s,c){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.getTeamDiscoveryStore=function(){var e;return t.getStoreAndRegisterReducers(((e={})[s.TEAM_DISCOVERY_NAMESPACE_KEY]=c.TeamDiscoveryReducer,e))}}));
+//# sourceMappingURL=store.min.js-vflgde0Na.map

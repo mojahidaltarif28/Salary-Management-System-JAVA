@@ -1,0 +1,1048 @@
+
+/* -- typescript/component_libraries/pro-ui/src/components/base/apply_button/index.web.css */
+.apply-workflow-button__popover {
+    margin-right: 10px;
+}
+
+.apply-workflow-button__popover .mc-popover-trigger {
+    display: block;
+}
+
+.apply-workflow-button__popover .mc-popover-trigger:focus {
+    border-radius: 4px;
+    box-shadow: 0
+0
+0
+3px
+rgba(178, 205, 255, 0.8);
+}
+
+.apply-workflow-button__popover .mc-popover-trigger.react-title-bubble__container {
+    display: block;
+}
+
+.apply-workflow-button.mc-button-primary {
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+}
+
+.apply-workflow-button.mc-button-primary:hover,
+.apply-workflow-button.mc-button-primary:active {
+    background-color: #f2f2f2;
+}
+
+.apply-workflow-button.mc-button-primary::after {
+    content: ' ';
+    border: 2px solid #ffffff;
+    border-width: 0 2px 2px 0;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    position: relative;
+    transform: rotate(45deg);
+    top: -3px;
+    border-color: #000000;
+    margin-left: 1.5em;
+}
+
+.apply-workflow-button.mc-button-disabled {
+    background-color: #bfbfbf;
+    color: #999999;
+}
+
+.apply-workflow-button.mc-button-disabled::after {
+    display: none;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/base/slider/index.web.css */
+.range-slider__wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 18px;
+}
+
+.range-slider__track {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 7px;
+}
+
+.range-slider {
+    appearance: none;
+    box-shadow: none;
+    position: relative;
+    background: transparent;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 18px;
+    border-radius: 10px;
+}
+
+.range-slider::-moz-focus-outer {
+    border: 0;
+}
+
+.range-slider:focus {
+    outline: none;
+}
+
+.range-slider::-webkit-slider-thumb {
+    appearance: none;
+    border: 2px solid #0d2481;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    background-color: #1c3da3;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.range-slider::-moz-range-thumb {
+    border: 2px solid #0d2481;
+    height: 16px;
+    width: 16px;
+    border-radius: 10px;
+    background-color: #1c3da3;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.range-slider::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.range-slider::-ms-fill-lower {
+    background: transparent;
+}
+
+.range-slider::-ms-tooltip {
+    display: none;
+}
+
+.range-slider::-ms-thumb {
+    border: 2px solid #0d2481;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    background-color: #1c3da3;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.range-slider:focus::-webkit-slider-thumb {
+    box-shadow: 0
+0
+0
+3px
+rgba(178, 205, 255, 0.8);
+}
+
+.range-slider:focus::-ms-thumb {
+    box-shadow: 0
+0
+0
+3px
+rgba(178, 205, 255, 0.8);
+}
+
+.range-slider:focus::-moz-range-thumb {
+    box-shadow: 0
+0
+0
+3px
+rgba(178, 205, 255, 0.8);
+}
+
+.range-slider--full-width {
+    display: block;
+}
+
+.range-slider--full-width .range-slider {
+    width: 100%;
+}
+
+.range-slider--dark-mode .range-slider::-webkit-slider-thumb {
+    border-color: #ffffff;
+    background-color: #000000;
+}
+
+.range-slider--dark-mode .range-slider::-moz-range-thumb {
+    border-color: #ffffff;
+    background-color: #000000;
+}
+
+.range-slider--dark-mode .range-slider::-ms-thumb {
+    border-color: #ffffff;
+    background-color: #000000;
+}
+
+.range-slider--disabled {
+    opacity: 0.5;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/base/top_banner/index.web.css */
+.top-banner {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    color: #000000;
+    padding: 8px 24px;
+    box-sizing: border-box;
+}
+
+.top-banner__text {
+    display: flex;
+}
+
+.top-banner__primary-text {
+    font-weight: 600;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/background/index.web.css */
+.branding-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.branding-background-thumbnail {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.branding-background--image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.branding-background__video {
+    position: absolute;
+    top: -150%;
+    left: 0;
+    width: 100%;
+    height: 400%;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/branding_block/index.web.css */
+.branding-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    text-align: center;
+}
+
+.branding-block__item--img {
+    height: 50px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.branding-block--large .branding-block__item--img {
+    height: calc(50px * 1.4);
+}
+
+.branding-block__item + .branding-block__item {
+    margin-top: 16px;
+}
+
+/* HACK(awanghoyer): Redundant class needed to bump specificity. */
+
+.branding-block--large .branding-block__item.branding-block__item--name {
+    font-size: 20px;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/cover_modal/index.web.css */
+.cover-modal__content {
+    display: flex;
+    min-height: 350px;
+}
+
+.cover-modal__card {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: calc(8px * 4);
+    /* IE11 won't wrap the org name unless we specify a width. */
+    width: 350px;
+}
+
+.cover-modal__card-logo-img {
+    height: 80px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cover-modal__card--large .cover-modal__card-logo-img {
+    height: calc(80px * 1.4);
+}
+
+.cover-modal__card-org-name {
+    display: flex;
+    justify-content: center;
+    /* IE11 won't wrap the org name unless we specify an explicity width on this child element. */
+    width: 100%;
+}
+
+.cover-modal__card--large .cover-modal__card-org-name {
+    font-size: 20px;
+}
+
+.cover-modal__card > *:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.cover-modal__background {
+    background: #ffffff;
+    flex: 1;
+    /* IE11 won't make the background fill vertically unless we give an explicit height. */
+    min-height: 350px;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/editor/index.web.css */
+.branding-upload-drop-zone {
+    position: relative;
+    min-height: 180px;
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+/* HACK(awanghoyer): Bump specificity to override DIG styles. */
+
+.branding-upload-drop-zone__button.branding-upload-drop-zone__button {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.branding-upload-drop-zone__svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.branding-upload-drop-zone__border {
+    stroke: #bfbfbf;
+    stroke-width: 3px;
+    stroke-dasharray: 10 5;
+    fill: none;
+}
+
+.branding-upload-drop-zone--error .branding-upload-drop-zone__border {
+    stroke: #9a0032;
+}
+
+.branding-upload-drop-zone--drag-active .branding-upload-drop-zone__border {
+    fill: #edf4ff;
+    animation: 1s linear infinite branding-drop-zone-border-anim;
+}
+
+.branding-upload-drop-zone__image-preview {
+    max-height: 150px;
+    max-width: 300px;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+@keyframes branding-drop-zone-border-anim {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 15;
+    }
+}
+
+.branding-upload-drop-zone--drag-active > * {
+    pointer-events: none;
+}
+
+.branding-upload-row__remove-button.branding-upload-row__remove-button {
+    display: inline-block;
+}
+
+.branding-upload-row__remove-spacer {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.branding-upload-drop-zone__text {
+    display: inline-flex;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+.branding-upload-drop-zone__drag-text {
+    height: 24px;
+    line-height: 22px;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/previews/scalable_email_preview/index.web.css */
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-email-preview.scalable-email-preview {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin: 30px auto;
+    padding: 0 128px;
+    min-height: 100%;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-email-preview__org-logo.scalable-email-preview__org-logo {
+    max-width: 200px;
+    max-height: 80px;
+    align-self: center;
+    margin-bottom: 16px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-email-preview__branding-block.scalable-email-preview__branding-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    text-align: center;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-email-preview__body.scalable-email-preview__body {
+    margin-bottom: 32px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-email-preview__cta.scalable-email-preview__cta {
+    margin-bottom: 16px;
+}
+.scalable-email-preview__logo {
+    height: 45px;
+    width: 45px;
+    color: #0d2481;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/previews/scalable_folder_preview/index.web.css */
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-preview.scalable-preview {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    pointer-events: none;
+    user-select: none;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-preview__app-wrapper.scalable-preview__app-wrapper {
+    /* This element will be scaled with inline styles. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    display: flex;
+}
+:root {
+    /* Use the default text color with opacity to support theme switching. */
+}
+.branding-placeholder-element {
+    background: #000000;
+    opacity: 0.1;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-modal.fake-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.fake-modal__wrapper {
+    width: 700px;
+}
+.fake-file-grid__row {
+    display: flex;
+    justify-content: space-between;
+}
+.fake-file-grid__file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 128px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-folder-header.fake-folder-header {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 56px;
+    padding: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-folder-header__ctas.fake-folder-header__ctas {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    padding-right: 8px;
+}
+.fake-folder-header__cta + .fake-folder-header__cta {
+    margin-left: 8px;
+}
+.fake-folder-header__logo {
+    height: 45px;
+    width: 45px;
+    color: #0d2481;
+}
+.scalable-folder-preview {
+    width: 100%;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-folder-preview__content.scalable-folder-preview__content {
+    margin: 0 auto;
+    width: 850px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-folder-preview__folder-name.scalable-folder-preview__folder-name {
+    padding: 16px 0 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/previews/scalable_single_file_preview/index.web.css */
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-preview.scalable-preview {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    pointer-events: none;
+    user-select: none;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-preview__app-wrapper.scalable-preview__app-wrapper {
+    /* This element will be scaled with inline styles. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    display: flex;
+}
+:root {
+    /* Use the default text color with opacity to support theme switching. */
+}
+.branding-placeholder-element {
+    background: #000000;
+    opacity: 0.1;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-modal.fake-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.fake-modal__wrapper {
+    width: 700px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-file-header.fake-file-header {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 56px;
+    padding-left: 8px;
+}
+.fake-file-header__logo {
+    height: 45px;
+    width: 45px;
+    color: #0d2481;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-file-header__file-name.fake-file-header__file-name {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    /* Add in padding to the right side to center the file name. */
+    padding-right: 45px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-pdf.fake-pdf {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 64px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-pdf__line.fake-pdf__line:first-child {
+    margin-bottom: 40px;
+}
+.fake-pdf__line + .fake-pdf__line {
+    margin-top: 16px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-pdf__image-wrapper.fake-pdf__image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-sidebar.fake-sidebar {
+    background: #ffffff;
+    height: 100%;
+    width: 380px;
+    padding: 0 16px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-sidebar__line.fake-sidebar__line {
+    margin-bottom: 16px;
+}
+.fake-sidebar__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 56px;
+}
+.fake-sidebar__cta + .fake-sidebar__cta {
+    margin-left: 8px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-sidebar__branding-block.fake-sidebar__branding-block {
+    margin-top: 24px;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.fake-sidebar__file-name.fake-sidebar__file-name {
+    margin: 32px 0;
+}
+.scalable-single-file-preview__content-wrapper {
+    flex: 1;
+    background: #f2f2f2;
+    min-height: 100%;
+}
+/**
+ * HACK(awanghoyer): Bump the specificity to override old scooter reset that is used on team admin
+ * console pages. See metaserver/static/css/scooter/base/_reset.scss#L10-17.
+ */
+.scalable-single-file-preview__content.scalable-single-file-preview__content {
+    flex: 1;
+    padding: 30px 100px 0;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/branding/split_pane_modal/index.web.css */
+.split-pane-modal__container {
+    display: flex;
+}
+
+.split-pane-modal__content-pane {
+    width: 50%;
+}
+
+.icon-bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-bullet-list-item {
+    display: flex;
+}
+
+.icon-bullet-list-item + .icon-bullet-list-item {
+    margin-top: 16px;
+}
+
+.icon-bullet-list-item__icon {
+    margin-right: 8px;
+    flex: 0 0 auto;
+}
+
+/* HACK(julio) Both classes are needed for specificity */
+
+.split-pane-modal__content-pane .split-pane-modal-footer {
+    display: block;
+}
+
+.split-pane-modal-footer__button-group {
+    margin-top: 8px;
+}
+
+/* HACK(julio) Both classes are needed for specificity */
+
+.split-pane-modal-footer .split-pane-modal-footer__button-secondary {
+    margin-left: 0;
+}
+
+.split-pane-modal__image-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+/* -- typescript/component_libraries/pro-ui/src/components/sidebar_pane/analytics_pane/index.web.css */
+.paneLabelText {
+    display: block;
+}
+
+.totalViews,
+.totalDownloads {
+    display: inline-block;
+    width: 135px;
+    height: 100px;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.total-views-downloads-container {
+    width: 280px; /* should be the sum of the totalViews and totalDownloads components' widths */
+}
+
+.title-row {
+    display: flex;
+    margin: 8px 0 8px 5px;
+    align-items: center;
+}
+
+.pro-analytics-pane {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.pro-analytics-pane button.since-explanation {
+    color: #666666;
+}
+
+/* Default behavior for IconButtons darkens the buttons slightly on mouseover,
+   and more dramatically on click. This is unnecessary and distracting for a help
+   icon that we're using just as a place to put a tooltip, so we override
+   these styles. (The styles rely on using :before content, we override it to
+   be `none`.)
+
+   Why such long selectors on the next 2 rules? The specificity is needed to
+   override the built-in IconButton behavior.
+   This is perhaps slightly dangerous, but if dig changes in the future such
+   that these styles no longer have the intended effect the default behavior
+   is a small defect at worst. */
+
+.pro-analytics-pane button.since-explanation:hover:before {
+    content: none;
+}
+
+.pro-analytics-pane button.since-explanation:active:before {
+    content: none;
+}
+
+/* This css just assures that the "no views" text and progress spinner are centered in a reasonably large box. */
+
+.pro-analytics-pane div.no-data-container {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.progress-spinner {
+    margin: 0 auto;
+}
+
+.title-row .spacer {
+    flex: 1;
+}
+
+.team-filter-menu {
+    margin-top: 24px;
+}
+
+.team-filter-label {
+    margin-right: 8px;
+}
+
+.hc-tooltip-header {
+    font-size: 10px;
+}
+
+.hc-tooltip-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hc-tooltip-name,
+.hc-tooltip-point {
+    display: inline;
+    padding: 0;
+}
+
+.hc-tooltip-point {
+    font-weight: bold;
+}
+
+.hc-navigation-buttons {
+    margin-right: 16px;
+}
+
+.activity-stream-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.activity-stream-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.activity-stream-container > .activity-stream-row {
+    margin-bottom: 30px;
+}
+
+.display-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date-and-location {
+    display: flex;
+    align-items: center;
+}
+
+.device-container {
+    flex-grow: 1;
+}
+
+.device {
+    margin-right: 16px;
+    float: right;
+}
+
+/**************************************
+            UPSELL START
+***************************************/
+
+.upsell-container {
+    top: 46px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.upsell-container__upsell-box {
+    width: 100%;
+    height: 202px;
+    top: 135px;
+    background-color: #f2f2f2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upsell-container__upsell-box.collapsed {
+    height: 235px;
+}
+
+.upsell-container__title {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.upsell-container__upsell-box-title,
+.upsell-container__upsell-box-description,
+.upsell-container__upsell-buttons {
+    margin-left: 24px;
+}
+
+.upsell-container__upsell-box-title.collapsed,
+.upsell-container__upsell-box-description.collapsed,
+.upsell-container__upsell-buttons.collapsed {
+    margin-left: 16px;
+}
+
+.upsell-container__upsell-box-title {
+    margin-top: 21px;
+}
+
+.upsell-container__upsell-box-description {
+    margin-top: 8px;
+    max-width: 301px;
+    height: 66px;
+}
+
+.upsell-container__upsell-box-description.collapsed {
+    height: auto;
+}
+
+.upsell-container__upsell-buttons {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.upsell-container__button-tell-me-more {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.upsell-container__button-tell-me-more.collapsed {
+    display: block;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+/**************************************
+            UPSELL END
+***************************************/
+
+/* -- typescript/component_libraries/pro-ui/src/components/trial/trial_popover_content/index.web.css */
+.trial-popover-content {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 26px;
+}
+
+.trial-popover-content__value-props {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.trial-popover-content__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.value-prop {
+    display: inline-flex;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.value-prop__check {
+    margin-right: 12px;
+}
