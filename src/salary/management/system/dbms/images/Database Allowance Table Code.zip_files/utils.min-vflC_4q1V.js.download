@@ -1,2 +1,0 @@
-define(["require","exports","file-viewer/public/support"],(function(e,i,r){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),i.INBAND_SUPPORTED_TYPES=[r.PreviewType.HTML]}));
-//# sourceMappingURL=utils.min.js-vfluUDq8t.map

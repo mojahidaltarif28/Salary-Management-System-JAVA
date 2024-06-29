@@ -1,2 +1,0 @@
-define("file-viewer/public/support",["require","exports","file-viewer/core/utils","file-viewer/core/data/models"],(function(e,i,r,p){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),i.isPreviewTypeSupported=r.isPreviewTypeSupported,i.PreviewType=p.PreviewType}));
-//# sourceMappingURL=pkg-fvsdk-support.min.js-vflQI28DE.map
