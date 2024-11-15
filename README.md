@@ -22,4 +22,4 @@ The project integrates a user-friendly Java GUI to interact with the application
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/java-gui-xampp-project.git
+   git clone https://github.com/mojahidaltarif28/Salary-Management-System-JAVA.git
